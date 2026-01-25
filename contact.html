@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Contact Penelope Markatou | Web Designer Athens Greece</title>
+    <meta name="description" content="Get in touch with Penelope Markatou, junior web designer in Athens. Available for web design projects, logo design, and brand identity work. Email: p.markatou@hotmail.com">
+    <meta name="keywords" content="contact web designer athens, hire web designer greece, penelope markatou contact, web design inquiry, logo design contact, freelance web designer">
+    <meta name="author" content="Penelope Markatou">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourusername.github.io/portfolio/contact.html">
+    <meta property="og:title" content="Contact Penelope Markatou | Web Designer">
+    <meta property="og:description" content="Get in touch for web design projects, logo design, and brand identity work in Athens, Greece.">
+    <meta property="og:image" content="https://yourusername.github.io/portfolio/images/og-preview.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact Penelope Markatou | Web Designer">
+    <meta name="twitter:description" content="Get in touch for web design projects in Athens, Greece.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yourusername.github.io/portfolio/contact.html">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact Penelope Markatou",
+      "url": "https://yourusername.github.io/portfolio/contact.html",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Penelope Markatou",
+        "jobTitle": "Junior Web Designer",
+        "email": "p.markatou@hotmail.com",
+        "telephone": "+30-6948729092",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Athens",
+          "addressCountry": "GR"
+        }
+      }
+    }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@300;400;500;600;800;900&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+            overflow-x: hidden;
+        }
+
+        html::-webkit-scrollbar, body::-webkit-scrollbar {
+            display: none;
+        }
+
+        body {
+            font-family: 'Libre Baskerville', serif;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .video-background::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                repeating-linear-gradient(
+                    45deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255, 255, 255, 0.08) 2px,
+                    rgba(255, 255, 255, 0.08) 4px
+                ),
+                repeating-linear-gradient(
+                    -45deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255, 255, 255, 0.08) 2px,
+                    rgba(255, 255, 255, 0.08) 4px
+                );
+            z-index: 1;
+        }
+
+        .video-background video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: linear-gradient(135deg, 
+                rgba(74, 74, 74, 0.95) 0%, 
+                rgba(90, 90, 90, 0.95) 50%, 
+                rgba(106, 90, 84, 0.95) 100%);
+            backdrop-filter: blur(10px);
+            padding: 20px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        nav.scrolled {
+            background: linear-gradient(135deg, 
+                rgba(74, 74, 74, 0.5) 0%, 
+                rgba(90, 90, 90, 0.5) 50%, 
+                rgba(106, 90, 84, 0.5) 100%);
+        }
+
+        .logo-link {
+            text-decoration: none;
+        }
+
+        .logo-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .logo-container {
+            position: relative;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hex-frame {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid rgba(255, 255, 255, 0.9);
+            animation: rotate 30s linear infinite;
+        }
+
+        .hex-frame::before {
+            content: '';
+            position: absolute;
+            inset: 4px;
+            border-radius: 50%;
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            animation: rotate-reverse 40s linear infinite;
+        }
+
+        @keyframes rotate { to { transform: rotate(360deg); } }
+        @keyframes rotate-reverse { to { transform: rotate(-360deg); } }
+
+        .line {
+            position: absolute;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.9) 50%, transparent);
+        }
+
+        .line-1 { width: 20px; top: 50%; left: -23px; animation: pulse 2s ease-in-out infinite; }
+        .line-2 { width: 20px; top: 50%; right: -23px; animation: pulse 2s ease-in-out infinite; }
+
+        @keyframes pulse { 0%, 100% { opacity: 0.3; } 50% { opacity: 0.7; } }
+
+        .letters { display: flex; gap: 3px; z-index: 2; }
+
+        .letter {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+            font-weight: 900;
+            color: #fff;
+            filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.5));
+        }
+
+        .center-dot {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: #fff;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 6px #fff;
+            animation: pulse-dot 2s ease-in-out infinite;
+            z-index: 3;
+        }
+
+        @keyframes pulse-dot {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); }
+            50% { transform: translate(-50%, -50%) scale(1.5); }
+        }
+
+        .subtitle {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 7px;
+            letter-spacing: 2px;
+            color: rgba(255, 255, 255, 0.95);
+            text-transform: uppercase;
+            position: relative;
+        }
+
+        .subtitle::before, .subtitle::after {
+            content: '';
+            position: absolute;
+            width: 10px;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.9);
+            top: 50%;
+        }
+
+        .subtitle::before { left: -13px; }
+        .subtitle::after { right: -13px; }
+
+        .scanline {
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.7), transparent);
+            animation: scan 4s linear infinite;
+        }
+
+        @keyframes scan {
+            0% { top: 0; opacity: 0; }
+            50% { opacity: 1; }
+            100% { top: 100%; opacity: 0; }
+        }
+
+        .logo-container:hover .letter { color: #F4C0AF; }
+        .logo-container:hover .hex-frame { border-color: #F4C0AF; }
+
+        .nav-links {
+            display: flex;
+            gap: 40px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: opacity 0.3s;
+        }
+
+        .nav-links a:hover { opacity: 0.7; }
+
+        .hamburger {
+            display: none;
+        }
+
+        .contact-page {
+            min-height: 100vh;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 140px 60px 80px;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+            position: relative;
+            z-index: 2;
+        }
+
+        .contact-page.scrolled {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .contact-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .contact-header {
+            margin-bottom: 60px;
+        }
+
+        .contact-title {
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin-bottom: 30px;
+            letter-spacing: 0.5px;
+        }
+
+        .contact-info {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .info-icon {
+            width: 24px;
+            height: 24px;
+        }
+
+        .info-text {
+            font-size: 1rem;
+        }
+
+        .contact-form {
+            max-width: 700px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        label {
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        input, textarea {
+            border: none;
+            border-bottom: 1px solid #333;
+            background: transparent;
+            padding: 10px 0;
+            font-family: 'Libre Baskerville', serif;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            border-bottom-color: #9B2226;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .send-btn {
+            background: #9B2226;
+            color: #fff;
+            border: none;
+            padding: 15px 60px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+            font-family: 'Libre Baskerville', serif;
+        }
+
+        .send-btn:hover {
+            background: #7a1b1e;
+        }
+
+        .social-link {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin-top: 60px;
+            text-decoration: none;
+            color: #333;
+            transition: opacity 0.3s;
+        }
+
+        .social-link:hover {
+            opacity: 0.7;
+        }
+
+        .github-icon {
+            width: 50px;
+            height: 50px;
+            background: #000;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .github-icon svg {
+            width: 30px;
+            height: 30px;
+            fill: #fff;
+        }
+
+        footer {
+            background: rgba(51, 51, 51, 0.85);
+            backdrop-filter: blur(10px);
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9rem;
+        }
+
+        /* Tablet styles */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .contact-page {
+                padding: 130px 50px 70px;
+            }
+
+            .contact-title {
+                font-size: 2rem;
+            }
+
+            .form-input, .form-textarea {
+                font-size: 0.95rem;
+            }
+        }
+
+        /* Mobile styles */
+        @media (max-width: 768px) {
+            nav {
+                padding: 15px 30px;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+            
+            .logo-link {
+                flex-shrink: 0;
+            }
+            
+            .hamburger {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                cursor: pointer;
+                z-index: 1001;
+                flex-shrink: 0;
+                position: absolute;
+                right: 30px;
+            }
+            
+            .hamburger span {
+                width: 28px;
+                height: 3px;
+                background: #fff;
+                transition: all 0.3s;
+            }
+            
+            .hamburger.active span:nth-child(1) {
+                transform: rotate(45deg) translate(8px, 8px);
+            }
+            
+            .hamburger.active span:nth-child(2) {
+                opacity: 0;
+            }
+            
+            .hamburger.active span:nth-child(3) {
+                transform: rotate(-45deg) translate(7px, -7px);
+            }
+            
+            .nav-links { 
+                position: fixed;
+                top: 0;
+                right: -100%;
+                height: 100vh;
+                width: 70%;
+                background: linear-gradient(135deg, 
+                    rgba(74, 74, 74, 0.98) 0%, 
+                    rgba(90, 90, 90, 0.98) 50%, 
+                    rgba(106, 90, 84, 0.98) 100%);
+                backdrop-filter: blur(10px);
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 40px;
+                transition: right 0.4s ease;
+                z-index: 1000;
+            }
+            
+            .nav-links.active {
+                right: 0;
+            }
+            
+            .nav-links a {
+                font-size: 28px !important;
+            }
+            
+            .contact-page {
+                padding: 100px 30px 60px;
+            }
+
+            .contact-title {
+                font-size: 1.5rem;
+            }
+
+            .contact-info {
+                flex-direction: column;
+                gap: 20px;
+                align-items: flex-start;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .form-input, .form-textarea {
+                font-size: 0.9rem;
+            }
+
+            .submit-btn {
+                width: 100%;
+            }
+        }
+
+        /* Scroll Animations */
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        .scroll-animate {
+            opacity: 0;
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .contact-info { animation-delay: 0.2s; }
+        .contact-form { animation-delay: 0.4s; }
+    </style>
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="291656_medium.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <nav id="navbar">
+        <a href="index.html" class="logo-link">
+            <div class="logo-wrapper">
+                <div class="logo-container">
+                    <div class="hex-frame"></div>
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="scanline"></div>
+                    <div class="letters">
+                        <span class="letter">P</span>
+                        <span class="letter">M</span>
+                    </div>
+                    <div class="center-dot"></div>
+                </div>
+                <div class="subtitle">Designer</div>
+            </div>
+        </a>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html#about">about.</a></li>
+            <li><a href="index.html#projects">projects.</a></li>
+            <li><a href="contact.html">contact.</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact-page">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h1 class="contact-title">penelope markatou, junior web designer</h1>
+                
+                <div class="contact-info scroll-animate">
+                    <div class="info-item">
+                        <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="5" width="18" height="14" rx="2"/>
+                            <path d="M3 7l9 6 9-6"/>
+                        </svg>
+                        <span class="info-text"><a href="mailto:p.markatou@hotmail.com">p.markatou@hotmail.com</a></span>
+                    </div>
+                    
+                    <div class="info-item">
+                        <svg class="info-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                        </svg>
+                        <span class="info-text">(+30) 6948729092</span>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form scroll-animate" action="https://formspree.io/f/xjkvqzpo" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" class="form-input">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" class="form-input">
+                    </div>
+                </div>
+
+                <div class="form-group full-width" style="margin-bottom: 40px;">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+
+                <div class="form-group full-width" style="margin-bottom: 40px;">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="form-textarea"></textarea>
+                </div>
+
+                <button type="submit" class="send-btn">Send</button>
+            </form>
+
+            <a href="https://github.com/penelopemar-png" target="_blank" class="social-link">
+                <div class="github-icon">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                </div>
+                <span>github</span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 by Penelope Markatou.</p>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        const contactPage = document.querySelector('.contact-page');
+        const navbar = document.getElementById('navbar');
+        let lastScroll = 0;
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            const scrollPos = currentScroll + window.innerHeight / 2;
+            const sectionTop = contactPage.offsetTop;
+            const sectionBottom = sectionTop + contactPage.offsetHeight;
+            
+            if (currentScroll > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+            
+            if (currentScroll > lastScroll && currentScroll > 100) {
+                navbar.style.transform = 'translateY(-100%)';
+            } else {
+                navbar.style.transform = 'translateY(0)';
+            }
+            
+            if (scrollPos > sectionBottom) {
+                contactPage.classList.add('scrolled');
+            } else {
+                contactPage.classList.remove('scrolled');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // Hamburger menu
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('active');
+                navLinks.classList.toggle('active');
+            });
+
+            // Close menu when clicking on a link
+            navLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    hamburger.classList.remove('
