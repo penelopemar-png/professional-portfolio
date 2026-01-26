@@ -3,7 +3,7 @@
 Professional portfolio showcasing my work as a **Junior Web Designer & Developer** with expertise in **UI/UX Design** and **Full-Stack Development**.
 
 ## 🌐 Live Site
-**Visit:** [penelopemar-png.github.io/portfolio-website](https://penelopemar-png.github.io/portfolio-website/)
+**Visit:** [penelopemar-png.github.io/portfolio-website](https://penelopemar-png.github.io/professional-portfolio/)
 
 ## 🎯 About This Project
 A responsive, modern portfolio website built to demonstrate:
