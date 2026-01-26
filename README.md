@@ -36,8 +36,15 @@ portfolio-website/
 - Project showcase with detailed descriptions
 - Contact section with links to GitHub, LinkedIn, and portfolio
 - SEO optimized
+
 - Fast loading times
 
 ## 👩‍💻 About Me
-Junior Web Designer & Developer with a background in **Psychology** and **Performing Arts**. I specialize in creating human-centered digital experiences, combining **Frontend** and **Backend** development with intuitive **UI/UX** design.
+Junior Web Designer & Developer with a background in **Psychology** and **Performing Arts**.
+ I specialize in creating human-centered digital experiences,
+combining **Frontend** and **Backend** development with intuitive **UI/UX** design.
 
+## 📫 Contact
+- **Email:** p.markatou@hotmail.com
+- **Portfolio:** [clementini26.wixsite.com/penelopemark](https://clementini26.wixsite.com/penelopemark)
+- **LinkedIn:** [linkedin.com/in/penelope-markatou](https://linkedin.com/in/penelope-markatou)
