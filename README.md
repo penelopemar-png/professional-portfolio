@@ -46,5 +46,5 @@ combining **Frontend** and **Backend** development with intuitive **UI/UX** desi
 
 ## 📫 Contact
 - **Email:** p.markatou@hotmail.com
-- **Portfolio:** [clementini26.wixsite.com/penelopemark](https://clementini26.wixsite.com/penelopemark)
+- **Portfolio:** [pmarkatou.gr](https://pmarkatou.gr)
 - **LinkedIn:** [linkedin.com/in/penelope-markatou](https://linkedin.com/in/penelope-markatou)
